@@ -105,7 +105,9 @@ body{
 }
 
 #about h1 {
-    font-size: 40px;
+    padding-top: 80px;
+    padding-bottom: 20px;
+    font-size: 50px;
     text-align: center;
     margin-top: 7%;
     
@@ -153,10 +155,11 @@ body{
 }
 
 #attractions1 h1{
-    padding-top: 150px;
+    padding-top: 100px;
     /* padding-left: 36%; */
     font-size: 50px;
     text-align: center;
+    padding-bottom: 50px;
 }
 
 .attractions{
@@ -203,7 +206,7 @@ body{
 
 #culture h1 {
     text-align: center;
-    font-size: 40px;
+    font-size: 50px;
     color: #052E16;
     padding-top: 20px;
 }
@@ -236,7 +239,7 @@ body{
 
 #gallary h1{
     text-align: center;
-    font-size: 40px;
+    font-size:50px;
     padding-top: 90px;
     padding-bottom: 70px;
 }
@@ -277,7 +280,7 @@ body{
 }
 
 #contact h1{
-    font-size: 40px;
+    font-size:50px;
     text-align: center;
 }
 
