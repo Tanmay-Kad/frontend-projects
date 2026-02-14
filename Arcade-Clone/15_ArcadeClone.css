@@ -1,0 +1,177 @@
+#header{
+    height: 100px;
+    width: 100%;
+    border : 2px solid black;
+    background-color: #071C35;
+    position: fixed;
+    z-index: 1;
+}
+
+#head, #google{
+    position: relative;
+    left: 85%;
+    top: 10px;
+    
+}
+
+#faq{
+    position: relative;
+    bottom: 17px;
+    color: white;
+    padding-left: 20px;
+    font-family: 'Google Sans';
+}
+
+#google{
+    color: white;
+    margin-top: 4px;
+    font-size: 10px;
+
+}
+
+#img{
+    height: 300px;
+    width: 100%;
+    padding-top : 103px;
+}
+
+#sec2{
+    background-color: #091b33;
+    margin-top: -25px;
+    height: 150px;
+
+    
+}
+
+#text{
+    /* border: 2px solid black; */
+    width: 50%;
+    font-family: 'Google Sans';
+    margin-left: 40px;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+#b1{
+    height: 40px;
+    width: 400px;
+    border-radius: 10px;
+    background-color: #ff4081;
+    font-size:30px;
+    font-weight: bolder;
+    /* font-family: Minecraftia; */
+    position: relative;
+    left: 60%;
+    bottom: 80px;
+    
+}
+
+#t2{
+    font-size: 22px;
+    /* margin-left: ; */
+}
+
+#a1{
+    color: #FFD548;
+}
+
+#d3{
+    position: relative;
+    bottom: 75px;
+    color: white;
+    /* border: 2px solid white; */
+}
+
+#t4{
+    position: relative;
+    left: 400px;
+    font-weight: bolder
+}
+
+#sec3{
+    height: 400px;
+    width: 100%;
+    /* border: 2px solid black; */
+    background-color:rgb(35, 34, 34) ;
+    display: inline-block;
+}
+/* #d4{
+    border: 2px solid black;
+
+} */
+
+#sec4{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    /* border: 2px solid black; */
+    height: 100%;
+    background-color: rgb(56, 56, 56);
+    border-radius: 10px;
+    /* display: inline-block; */
+}
+
+
+#d5{
+    width: 50%;
+    height: 80%;
+    /* border: 2px solid black; */
+    display: inline-block;
+    padding-top: 40px;
+    padding-left: 20px;
+}
+.i2{
+    height: 100%;
+    width: 100%;
+}
+
+#d6{
+    width: 50%;
+    height:362px;
+    /* border: 2px solid black; */
+    /* display: inline-block; */
+    position: relative;
+    left: 600px;
+    bottom: 368px;
+}
+
+#p4{
+    /* border: 2px solid black; */
+    width: 271px;
+    height: 66px;
+    color: #FFD548;
+    font-size: 45px;
+    font-family: 'Press Start 2P';
+    text-align: left;
+    padding-left: 130px;
+}   
+
+#p5{
+    width: 284px;
+    height: 50px;
+    /* border: 2px solid black; */
+    color: white;
+    padding-left: 130px;
+    padding-top: 10px;
+
+}
+#p6{
+    color: #F5BB11;
+    width: 271px;
+    /* border: 2px solid black; */
+    margin-left: 130px;
+    margin-top: 0;
+}
+
+#b2{
+    height: 40px;
+    width: 140px;
+    border-radius: 10px;
+    background-color: #ff4081;
+    position: relative;
+    left: 130px;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bolder;
+}
