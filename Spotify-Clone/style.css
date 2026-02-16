@@ -239,7 +239,7 @@ body{
 
 .left-sidebar .albums .liked-songs{
     display: flex;
-    border: 2px solid white;
+    /* border: 2px solid white; */
 }
 
 .left-sidebar .albums .liked-songs img{
@@ -257,7 +257,7 @@ body{
 
 .left-sidebar .albums .atif-aslam{
     display: flex;
-    border: 2px solid white;
+    /* border: 2px solid white; */
 }
 
 .left-sidebar .albums .atif-aslam img{
@@ -276,7 +276,7 @@ body{
 
 .left-sidebar .albums .darshan-raval{
     display: flex;
-    border: 2px solid white;
+    /* border: 2px solid white; */
 }
 
 .left-sidebar .albums .darshan-raval img{
@@ -294,7 +294,7 @@ body{
 
 .left-sidebar .albums .b-praak{
     display: flex;
-    border: 2px solid white;
+    /* border: 2px solid white; */
 }
 
 .left-sidebar .albums .b-praak img{
@@ -312,7 +312,7 @@ body{
 
 .left-sidebar .albums .arijit-singh{
     display: flex;
-    border: 2px solid white;
+    /* border: 2px solid white; */
 }
 
 .left-sidebar .albums .arijit-singh img{
@@ -324,6 +324,16 @@ body{
     margin-top: -0.7rem;
     margin-left: 1rem;
     margin-bottom: -0.5rem;
+}
+
+.albums .albums-inner{
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+}
+
+.albums .albums-inner:hover{
+    border-radius: 0.8rem;
+    background-color: #232323;
 }
 
 .main-content{
