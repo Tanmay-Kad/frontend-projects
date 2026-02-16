@@ -11,7 +11,7 @@ body{
 }
 .top-navbar{
     /* position: absolute; */
-    border: 2px solid white;
+    /* border: 2px solid white; */
     width: 100%;
     height: 70px;
     background-color: #121212;
@@ -56,7 +56,7 @@ body{
 }
 
 .top-navbar .search-bar:hover{
-     
+     border:2px solid #fff;
 }
 
 .search-bar input{
@@ -76,7 +76,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 2px solid white;
+    /* border: 2px solid white; */
     width: 32%;
     margin-left: 1rem;
 }
@@ -85,10 +85,48 @@ body{
     height: 2.4rem;
     width: 9rem;
     border-radius: 2rem;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     font-weight: 600;
+    border: none;
 }
 
+.install-buttons .exp-btn1:hover{
+    transform: scale(1.02);
+}
+
+.install-buttons .instll-btn1{
+    height: 2.4rem;
+    width: 9rem;
+    border-radius: 2rem;
+    font-size: 0.9rem;
+    font-weight: 600;
+    background-color: black;
+    border: none;
+    color: white;
+    opacity: 0.7;
+}
+
+.install-buttons .instll-btn1:hover{
+    transform: scale(1.02);
+    opacity: 1;
+}
+
+.install-buttons .instll-btn1 i{
+    padding-right: 0.5rem;
+}
+
+.install-buttons .nav-icons{
+    opacity: 0.7;
+}
+
+.install-buttons .nav-icons:hover{
+    opacity: 1;
+    transform: scale(1.02);
+}
+
+.install-buttons #user-icon{
+    font-size: 2rem;
+}
 
 .left-sidebar{
     position: absolute;
