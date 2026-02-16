@@ -17,11 +17,27 @@ body{
     background-color: #121212;
 }
 
-.top-navbar img{
+.top-logo-home{
+    display: flex;
+    width: 35%;
+    /* border: 2px solid white; */
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.top-navbar .top-logo-home img{
     height: 50%;
     width: 40px;
     padding-top:14px;
     padding-left: 4%;
+}
+
+.top-navbar .top-logo-home i{
+    font-size: 2rem;
+    padding-top:14px;
+    padding-left: 4%;
+    /* border: 2px solid beige; */
 }
 
 .left-sidebar{
