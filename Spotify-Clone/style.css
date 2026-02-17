@@ -347,7 +347,7 @@ body{
     border: 2px solid white;
     height: 76vh;
     width: 52%;
-    overflow: hidden;
+    overflow: auto;
     background-color: #141414;
     border-radius: 0.7rem;
 }
@@ -482,6 +482,37 @@ body{
     margin-top: 0.3rem;
     margin-bottom: 0.3rem;
     border-radius: 0.4rem;
+}
+
+.main-content .made-for{
+    margin-left: 5.2rem;
+    /* border: 1px solid white; */
+    width: 70%;
+    height: 4rem;
+    margin-top: 1rem;
+}
+
+.main-content .made-for p{
+    margin-bottom: -0.7rem;
+    font-size: 0.9rem;
+    opacity: 0.7;
+}
+
+.main-content .made-for h2{
+    font-size: 1.4rem;
+    /* border: 1px solid white; */
+    margin-right: 25rem;
+}
+
+.main-content .made-for h2:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+.made-for-cards{
+    display: flex;
+    overflow: auto;
 }
 
 
