@@ -512,7 +512,42 @@ body{
 
 .made-for-cards{
     display: flex;
+    flex-wrap: nowrap;
     overflow: auto;
+    margin-left: 5rem;
+    /* border: 2px solid white; */
+}
+
+.made-for-cards .made-cards-inner{
+    margin-right: 1rem;
+    border: 1px solid white;
+    width: 25%;
+    height: 80%;
+    border-radius: 0.7rem;
+    
+}
+
+.made-for-cards .made-cards-inner:hover{
+    background-color: #292929;
+}
+
+.made-for-cards .made-cards-inner p{
+    font-size: 0.7rem;
+}
+.made-for-cards .made-cards-inner img{
+    height: 60%;
+    width: 90%;
+    border-radius: 0.7rem;
+    padding-top: 0.35rem;
+    padding-bottom: 0.35rem;
+    padding-left: 0.35rem;
+    /* padding-right: 1rem; */
+    
+}
+
+.made-for-cards .first-made-for{
+    width: 25%;
+    
 }
 
 
