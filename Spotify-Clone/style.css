@@ -346,7 +346,7 @@ body{
     left:21.5rem;
     border: 2px solid white;
     height: 76vh;
-    width: 57%;
+    width: 52%;
     overflow: auto;
     background-color: #141414;
     border-radius: 0.7rem;
@@ -383,12 +383,61 @@ body{
 }
 
 
+.main-content .main-content-cards{
+    display: flex;
+    width: 80%;
+    border: 2px solid white;
+    margin-top: 0.4rem;
+    margin-left: 4.9rem;
+    flex-wrap: wrap;
+}
+
+.main-content .main-content-cards img{
+    height: 4rem;
+}
+
+.main-content .main-content-cards .liked{
+    width: 50%;
+    display: flex;
+}
+
+.main-content .main-content-cards .thodi-si-daru{
+    width: 50%;
+    display: flex;
+}
+
+.main-content .main-content-cards .atif{
+    width: 50%;
+    display: flex;
+}
+.main-content .main-content-cards .peaky-blinder{
+    width: 50%;
+    display: flex;
+}
+.main-content .main-content-cards .desi-boys{
+    width: 50%;
+    display: flex;
+}
+.main-content .main-content-cards .bollywood{
+    width: 50%;
+    display: flex;
+}
+.main-content .main-content-cards .trending-now{
+    width: 50%;
+    display: flex;
+}
+.main-content .main-content-cards .mega-punjabi{
+    width: 50%;
+    display: flex;
+}
+
+
 .right-sidebar{
     position: absolute;
     right: 10px;
     top: 85px;
     border: 2px solid white;
-    width: 19%;
+    width: 23.8%;
     height: 76vh;
     background-color: #141414;
     border-radius: 0.7rem;
