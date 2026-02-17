@@ -128,6 +128,8 @@ body{
     font-size: 2rem;
 }
 
+/*Left Sidebar*/
+
 .left-sidebar{
     position: absolute;
     left: 10px;
@@ -336,6 +338,8 @@ body{
     background-color: #232323;
 }
 
+/*Main Content*/
+
 .main-content{
     position: absolute;
     top: 85px;
@@ -346,8 +350,38 @@ body{
     overflow: auto;
     background-color: #141414;
     border-radius: 0.7rem;
+}
+
+.main-content .main-content-navbar{
+    display: flex;
+    border: 2px solid white;
+    width: 100%;
+    height: 3.5rem;
+    align-items: center;
+}
+
+.main-content .main-content-navbar button{
+    margin-right: 1rem;
+    border: none;
+    background-color: #232323;
+    color: white;
+    border-radius: 3rem;
+    padding: 0.6rem;
+    filter: brightness(100%);
 
 }
+
+.main-content .main-content-navbar button:hover{
+    filter: brightness(140%);
+}
+
+.main-content .main-content-navbar .all-btn{
+    margin-left: 1.5rem;
+    background-color: #fff;
+    color: black;
+
+}
+
 
 .right-sidebar{
     position: absolute;
