@@ -347,7 +347,7 @@ body{
     border: 2px solid white;
     height: 76vh;
     width: 52%;
-    overflow: auto;
+    overflow: hidden;
     background-color: #141414;
     border-radius: 0.7rem;
 }
@@ -386,49 +386,102 @@ body{
 .main-content .main-content-cards{
     display: flex;
     width: 80%;
-    border: 2px solid white;
+    /* border: 2px solid white; */
     margin-top: 0.4rem;
     margin-left: 4.9rem;
     flex-wrap: wrap;
 }
 
 .main-content .main-content-cards img{
-    height: 4rem;
+    height: 100%;
+    border-radius: 0.4rem 0 0 0.4rem;
+    margin-right: 0.4rem;
 }
 
+.main-content .main-content-cards .small-cards{
+    background-color: #292929;
+    filter: brightness(90%);
+}
+
+.main-content .main-content-cards .small-cards:hover{
+    filter: brightness(130%);
+}
 .main-content .main-content-cards .liked{
-    width: 50%;
+    width: 48%;
     display: flex;
+    /* border: 1px solid white; */
+    margin-right: 0.7rem;
+    margin-left: 0.3rem;
+    height: 3.5rem;
+    margin-top: 0.3rem;
+    border-radius: 0.4rem;
 }
 
 .main-content .main-content-cards .thodi-si-daru{
-    width: 50%;
+    width: 48%;
     display: flex;
+    /* border: 1px solid white; */
+    height: 3.5rem;
+    margin-top: 0.3rem;
+    border-radius: 0.4rem;
+
 }
 
 .main-content .main-content-cards .atif{
-    width: 50%;
+   width: 48%;
     display: flex;
+    /* border: 1px solid white; */
+    height: 3.5rem;
+    margin-top: 0.3rem;
+    border-radius: 0.4rem;
 }
 .main-content .main-content-cards .peaky-blinder{
-    width: 50%;
+    width: 48%;
     display: flex;
+    /* border: 1px solid white; */
+    margin-right: 0.7rem;
+    margin-left: 0.3rem;
+    height: 3.5rem;
+    margin-top: 0.3rem;
+    border-radius: 0.4rem;
 }
 .main-content .main-content-cards .desi-boys{
-    width: 50%;
+    width: 48%;
     display: flex;
+    /* border: 1px solid white; */
+    margin-right: 0.7rem;
+    margin-left: 0.3rem;
+    height: 3.5rem;
+    margin-top: 0.3rem;
+    border-radius: 0.4rem;
 }
 .main-content .main-content-cards .bollywood{
-    width: 50%;
+    width: 48%;
     display: flex;
+    /* border: 1px solid white; */
+    height: 3.5rem;
+    margin-top: 0.3rem;
+    border-radius: 0.4rem;
 }
 .main-content .main-content-cards .trending-now{
-    width: 50%;
+    width: 48%;
     display: flex;
+    /* border: 1px solid white; */
+    margin-right: 0.7rem;
+    margin-left: 0.3rem;
+    height: 3.5rem;
+    margin-top: 0.3rem;
+    margin-bottom: 0.3rem;
+    border-radius: 0.4rem;
 }
 .main-content .main-content-cards .mega-punjabi{
-    width: 50%;
+    width: 48%;
     display: flex;
+    /* border: 1px solid white; */
+    height: 3.5rem;
+    margin-top: 0.3rem;
+    margin-bottom: 0.3rem;
+    border-radius: 0.4rem;
 }
 
 
@@ -441,6 +494,7 @@ body{
     height: 76vh;
     background-color: #141414;
     border-radius: 0.7rem;
+    
 }
 
 
