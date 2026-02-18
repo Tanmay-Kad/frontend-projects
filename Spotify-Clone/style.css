@@ -11,7 +11,7 @@ body{
 }
 .top-navbar{
     /* position: absolute; */
-    border: 2px solid white;
+    /* border: 2px solid white; */
     width: 100%;
     height: 70px;
     background-color: black;
@@ -344,7 +344,7 @@ body{
     position: absolute;
     top: 85px;
     left:21.5rem;
-    border: 2px solid white;
+    /* border: 2px solid white; */
     height: 76vh;
     width: 52%;
     overflow: auto;
@@ -354,13 +354,14 @@ body{
 
 .main-content .main-content-navbar{
     display: flex;
-    border: 2px solid white;
+    /* border: 2px solid white; */
     width: 50.7%;
     height: 3.5rem;
     align-items: center;
     position: fixed;
     z-index: 1000;
-    background-color: black;
+    background-color: #070707;
+    border-radius: 0.7rem;
     
 }
 
