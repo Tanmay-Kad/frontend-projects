@@ -355,9 +355,13 @@ body{
 .main-content .main-content-navbar{
     display: flex;
     border: 2px solid white;
-    width: 100%;
+    width: 50.7%;
     height: 3.5rem;
     align-items: center;
+    position: fixed;
+    z-index: 1000;
+    background-color: black;
+    
 }
 
 .main-content .main-content-navbar button{
@@ -387,7 +391,7 @@ body{
     display: flex;
     width: 80%;
     /* border: 2px solid white; */
-    margin-top: 0.4rem;
+    margin-top: 4rem;
     margin-left: 4.9rem;
     flex-wrap: wrap;
 }
@@ -512,18 +516,19 @@ body{
 
 .made-for-cards{
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     overflow: auto;
-    margin-left: 5rem;
+    margin-left: 2rem;
     /* border: 2px solid white; */
 }
 
 .made-for-cards .made-cards-inner{
     margin-right: 1rem;
-    border: 1px solid white;
-    width: 25%;
+    /* border: 1px solid white; */
+    width: 22%;
     height: 80%;
     border-radius: 0.7rem;
+    margin-bottom: 0.7rem;
     
 }
 
@@ -533,6 +538,7 @@ body{
 
 .made-for-cards .made-cards-inner p{
     font-size: 0.7rem;
+    margin-left: 0.7rem;
 }
 .made-for-cards .made-cards-inner img{
     height: 60%;
@@ -540,15 +546,17 @@ body{
     border-radius: 0.7rem;
     padding-top: 0.35rem;
     padding-bottom: 0.35rem;
-    padding-left: 0.35rem;
+    padding-left: 0.5rem;
     /* padding-right: 1rem; */
     
 }
 
-.made-for-cards .first-made-for{
+/* .made-for-cards .first-made-for{
     width: 25%;
     
-}
+} */
+
+
 
 
 .right-sidebar{
