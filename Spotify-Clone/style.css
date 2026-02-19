@@ -134,7 +134,7 @@ body{
     position: absolute;
     left: 10px;
     top: 85px;
-    border: 2px solid white;
+    /* border: 2px solid white; */
     height: 76vh;
     width: 21%;
     background-color: #141414;
@@ -360,7 +360,7 @@ body{
     align-items: center;
     position: fixed;
     z-index: 1000;
-    background-color: #070707;
+    background-color: #121212;
     border-radius: 0.7rem;
     
 }
