@@ -608,6 +608,27 @@ body{
     border-radius: 0.7rem;
 }
 
+.singers-name{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid white;
+}
+
+.singers-name .singers-name1{
+    margin-left: 1rem;
+}
+
+.singers-name .singers-name1 p{
+margin-top: -1rem;
+color: #909090;
+}
+
+.singers-name .singers-name1 h3:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
 
 
 .music-player{
