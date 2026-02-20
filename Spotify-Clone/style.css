@@ -566,7 +566,7 @@ body{
     position: absolute;
     right: 10px;
     top: 85px;
-    border: 2px solid white;
+    /* border: 2px solid white; */
     width: 23.8%;
     height: 76vh;
     background-color: #141414;
@@ -635,14 +635,14 @@ margin-top: -1rem;
 
 
 .right-sidebar .about-ap{
-    /* border:  2px solid white; */
+    border:  2px solid white;
     margin: 1rem;
     padding-left: 1rem;
     padding-right: 1rem;
     font-weight: 700;
     background-color: #272727;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
     border-radius: 0.7rem;
 
 }
@@ -699,7 +699,36 @@ margin-top: -1rem;
     font-weight: 500;
 }
 
+.right-sidebar .credits{
+    padding: 0.5rem;
+    border: 2px solid white;
+    margin: 1rem;
+    border-radius: 0.7rem;
 
+}
+.right-sidebar .credits .credit-show{
+    display: flex;
+    border: 2px solid white;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right-sidebar .credits .first-ap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right-sidebar .credits .first-ap button{
+    border-radius: 0.9rem;
+    background-color: transparent;
+    border: 0.5px solid white;
+    height: 1.8rem;
+    width: 4rem;
+    color: white;
+    padding-top: 0.15rem;
+    font-weight: 600;
+}
 .music-player{
     position: absolute;
     bottom: 0;
