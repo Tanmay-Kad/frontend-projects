@@ -635,17 +635,36 @@ margin-top: -1rem;
 
 
 .right-sidebar .about-ap{
-    border:  2px solid white;
+    /* border:  2px solid white; */
     margin: 1rem;
     padding-left: 1rem;
     padding-right: 1rem;
     font-weight: 700;
+    background-color: #272727;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 0.7rem;
+
+}
+
+.right-sidebar .about-ap .abt{
+    font-size: 1.07rem;
+    font-weight: 600;
+}
+
+.right-sidebar .about-ap .ap{
+    font-size: 1.07rem;
+    font-weight: 600;
 }
 
 .right-sidebar .about-ap img{
     width: 20%;
     height: 20%;
     border-radius: 50%;
+}
+
+.right-sidebar .about-ap .ap:hover{
+    text-decoration: underline;
 }
 
 .right-sidebar .about-ap .listener-follow{
@@ -656,6 +675,28 @@ margin-top: -1rem;
 
 .right-sidebar .about-ap .listeners{
     font-size: 0.8rem;
+}
+
+.right-sidebar .about-ap button{
+    border-radius: 0.9rem;
+    background-color: transparent;
+    border: 0.5px solid white;
+    height: 1.8rem;
+    width: 4rem;
+    color: white;
+    padding-top: 0.15rem;
+    font-weight: 600;
+}
+
+.right-sidebar .about-ap button:hover{
+    border: 2px solid white;
+    transform: scale(1.07);
+}
+
+.right-sidebar .about-ap p{
+    font-size: 0.8rem;
+    /* text-align: justify; */
+    font-weight: 500;
 }
 
 
