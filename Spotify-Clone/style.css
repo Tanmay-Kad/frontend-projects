@@ -634,7 +634,29 @@ margin-top: -1rem;
 }
 
 
+.right-sidebar .about-ap{
+    border:  2px solid white;
+    margin: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-weight: 700;
+}
 
+.right-sidebar .about-ap img{
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+}
+
+.right-sidebar .about-ap .listener-follow{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right-sidebar .about-ap .listeners{
+    font-size: 0.8rem;
+}
 
 
 .music-player{
