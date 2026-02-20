@@ -4,6 +4,7 @@ body{
     color: white;
     margin: 0;
     overflow: hidden;
+    scrollbar-width: none;
 }
 
 .main{
@@ -352,6 +353,15 @@ body{
     border-radius: 0.7rem;
 }
 
+.main-content {
+  overflow: auto;
+  scrollbar-width: none;
+}
+
+.main-content::-webkit-scrollbar {
+  display: none;
+}
+
 .main-content .main-content-navbar{
     display: flex;
     /* border: 2px solid white; */
@@ -572,6 +582,8 @@ body{
     background-color: #141414;
     border-radius: 0.7rem;
     overflow: auto;
+    scrollbar-width: none;
+
 }
 
 .right-sidebar .right-nav-top{
@@ -635,7 +647,7 @@ margin-top: -1rem;
 
 
 .right-sidebar .about-ap{
-    border:  2px solid white;
+    /* border:  2px solid white; */
     margin: 1rem;
     padding-left: 1rem;
     padding-right: 1rem;
@@ -701,14 +713,15 @@ margin-top: -1rem;
 
 .right-sidebar .credits{
     padding: 0.5rem;
-    border: 2px solid white;
+    /* border: 2px solid white; */
     margin: 1rem;
     border-radius: 0.7rem;
+    background-color: #272727;
 
 }
 .right-sidebar .credits .credit-show{
     display: flex;
-    border: 2px solid white;
+    /* border: 2px solid white; */
     justify-content: space-between;
     align-items: center;
 }
@@ -719,7 +732,7 @@ margin-top: -1rem;
     align-items: center;
 }
 
-.right-sidebar .credits .first-ap button{
+.right-sidebar .credits .artist-btn{
     border-radius: 0.9rem;
     background-color: transparent;
     border: 0.5px solid white;
@@ -729,6 +742,22 @@ margin-top: -1rem;
     padding-top: 0.15rem;
     font-weight: 600;
 }
+
+.right-sidebar .credits .second-sg{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right-sidebar .credits .common-cl:hover{
+    border-radius: 0.8rem;
+    background-color: #323232;
+}   
+
+
+
+
+
 .music-player{
     position: absolute;
     bottom: 0;
